@@ -1,41 +1,73 @@
----
-title: Vite + React
-description: The default Vite + React starter, utilizing `Caddy` to serve the built app
-tags:
-  - node
-  - vite
-  - react
----
+# Welcome to your Lovable project
 
-# Vite + React + Caddy
+## Project info
 
-This is a [Vite + React](https://vitejs.dev/guide/#trying-vite-online) starter that uses [Caddy](https://caddyserver.com/).
+**URL**: https://lovable.dev/projects/31847c77-5352-442f-9ad6-f6e7c39e881b
 
-[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/NeiLty?referralCode=ySCnWl)
+## How can I edit this code?
 
-## ✨ Features
+There are several ways of editing your application.
 
-- Vite + React
-- [Caddy](https://caddyserver.com/)
+**Use Lovable**
 
-## 💁‍♀️ How to use
+Simply visit the [Lovable Project](https://lovable.dev/projects/31847c77-5352-442f-9ad6-f6e7c39e881b) and start prompting.
 
-- Install required dependencies with `npm install`
-- Start the server for local development `npm run dev`
+Changes made via Lovable will be committed automatically to this repo.
 
-## ❓ Why use `Caddy` when deploying to Railway?
+**Use your preferred IDE**
 
-Caddy is a powerful, enterprise-ready, open source web server, and therefore Caddy is far better suited to serve websites than Vite is, using Caddy will result in much less memory and cpu usage compared to serving with Vite (much lower running costs too)
+If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
 
-To see how this is achieved with nixpacks, check out the fully documented nixpacks.toml file in this repository
+The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
 
-The configuration for Caddy is called a Caddyfile, and you can edit that file to further suite your needs, by default it comes configured to serve a single page app for React, and to also gzip the responses
+Follow these steps:
 
-**Relevant Caddy documentation:**
+```sh
+# Step 1: Clone the repository using the project's Git URL.
+git clone <YOUR_GIT_URL>
 
-- [The Caddyfile](https://caddyserver.com/docs/caddyfile)
-- [Caddyfile Directives](https://caddyserver.com/docs/caddyfile/directives)
-- [root](https://caddyserver.com/docs/caddyfile/directives/root)
-- [encode](https://caddyserver.com/docs/caddyfile/directives/encode)
-- [file_server](https://caddyserver.com/docs/caddyfile/directives/file_server)
-- [try_files](https://caddyserver.com/docs/caddyfile/directives/try_files)
+# Step 2: Navigate to the project directory.
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install the necessary dependencies.
+npm i
+
+# Step 4: Start the development server with auto-reloading and an instant preview.
+npm run dev
+```
+
+**Edit a file directly in GitHub**
+
+- Navigate to the desired file(s).
+- Click the "Edit" button (pencil icon) at the top right of the file view.
+- Make your changes and commit the changes.
+
+**Use GitHub Codespaces**
+
+- Navigate to the main page of your repository.
+- Click on the "Code" button (green button) near the top right.
+- Select the "Codespaces" tab.
+- Click on "New codespace" to launch a new Codespace environment.
+- Edit files directly within the Codespace and commit and push your changes once you're done.
+
+## What technologies are used for this project?
+
+This project is built with:
+
+- Vite
+- TypeScript
+- React
+- shadcn-ui
+- Tailwind CSS
+
+## How can I deploy this project?
+
+Simply open [Lovable](https://lovable.dev/projects/31847c77-5352-442f-9ad6-f6e7c39e881b) and click on Share -> Publish.
+
+## Can I connect a custom domain to my Lovable project?
+
+Yes, you can!
+
+To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+
+Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
